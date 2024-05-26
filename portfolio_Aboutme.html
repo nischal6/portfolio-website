@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Google Fonts - Roboto -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            padding: 1rem;
+            position: relative;
+        }
+        .navbar-custom {
+            background-color: #2c3e50;
+            padding: 1rem;
+        }
+        .navbar-custom .navbar-brand, .navbar-custom .nav-link {
+            color: white;
+            font-size: 1.2rem;
+            font-family: 'Roboto', sans-serif;
+        }
+        .navbar-custom .nav-link {
+            margin-right: 1.5rem;
+        }
+        .content-wrapper {
+            border: 2px solid black;
+            border-radius: 10px;
+            padding: 1rem;
+            margin-top: 6rem; /* Add margin-top to create space */
+            margin-bottom: 4rem;
+        }
+        .container {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .flex-container {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            margin-bottom: 2rem;
+        }
+        .profile-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-right: 2rem;
+        }
+        .profile-pic {
+            height: 20rem;
+            width: 20rem;
+            display: block;
+            border-radius: 50%;
+        }
+        .introduction {
+            max-width: 37.5rem;
+            text-align: justify;
+        }
+        .keywords {
+            text-align: center;
+            margin-top: 2rem;
+        }
+        .keywords h2 {
+            margin-bottom: 1rem;
+        }
+        .keywords ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .keywords li {
+            display: inline-block;
+            margin: 0 1rem;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+        .tail {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            text-align: center;
+            padding: 1rem;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
+        <a class="navbar-brand" href="#">Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="file:///C:/Users/nisch/OneDrive/Desktop/work/bootstrap/portfolio_project/portfolio_Aboutme.html#home">
+                    Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="file:///C:/Users/nisch/OneDrive/Desktop/work/bootstrap/portfolio_project/resume.html">
+                    Resume</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="file:///C:/Users/nisch/OneDrive/Desktop/work/bootstrap/portfolio_project/project_page.html">
+                    Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="file:///C:/Users/nisch/OneDrive/Desktop/work/bootstrap/portfolio_project/blogs.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="file:///C:/Users/nisch/OneDrive/Desktop/work/bootstrap/portfolio_project/contact_me.html#contact">Contact Info</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- About Me Section -->
+    <div class="content-wrapper" id="home">
+        <div class="container">
+            <h3>About Me</h3>
+        </div>
+        <div class="flex-container">
+            <div class="profile-section">
+                <img src="about_me_profile_pic.png" alt="Profile Picture" class="profile-pic">
+            </div>
+            <div class="introduction">
+                <p>I'm 21 years old, currently studying in 4th year (Graduating 2024), pursuing a career in Computer Science
+                   and Engineering from Shri Shankaracharya Institute of Professional Management and Technology, Raipur,
+                   Chhattisgarh, India. Born and brought up in Birgunj, Nepal. I have done my schooling from BSS Pranavananda Academy in 2020, with Math's as a background.
+                </p>
+
+                <p>
+                    My idea behind taking up Computer Science & Engineering is my passion to learn the technology and tools which enable to build up the program from scratch. Personally, it is exciting to work on the visuals and graphics that I see on the screen.
+                </p>
+
+                <p>
+                    I have a keen interest in the field of Data Science and Machine Learning, and I am presently learning and working on the skills required to expertise in the respective field.
+                </p> 
+
+                <p>
+                    I'm a firm believer in working hard consistently, which can definitely help to achieve success.
+                </p>
+            </div>
+        </div>
+        <div class="keywords">
+            <h2>Few Keywords which define me are</h2>
+            <ul>
+                <li>Hardworking</li>
+                <li>Creative</li>
+                <li>Thoughtful</li>
+                <li>Professional</li>
+                <li>Disciplined</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class='tail'>
+        <footer>© Created by Nischal Khanal using Bootstrap</footer>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
